@@ -1,2 +1,2 @@
 # myResource
-存储博客文件，用于jsdelivr加速
+博客资源、博客图床
