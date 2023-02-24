@@ -2,3 +2,6 @@
 a.github-badge{
   margin-right:8px
 }
+a.github-badge:hover:before {
+  content: attr(data-title);
+}
