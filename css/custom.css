@@ -139,3 +139,10 @@ div#archive {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
 }
+
+
+#文章双侧栏
+#pagination {
+  width: 100%;
+  margin: auto;
+}
