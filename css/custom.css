@@ -317,4 +317,8 @@ div#archive {
 }
 /* 自定义底部  End */
 
+/*设置字体  */
+body.pace-done{
+	font-family:var(--global-font),-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
+}
 
