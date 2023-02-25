@@ -11,7 +11,7 @@ i = (now - o) / 1e3 / 60 / 60 - 24 * r, s = Math.floor(i);
     var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l, b = Math.round(g);
     1 == String(b).length && (b = "0" + b);
     let c = "";
-    c = s < 18 && s >= 9 ? `<img class='boardsign' src='https://picbed.yanhuoi.work/img/label/秘密基地-运行中.svg' title='越努力越自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> </div>` : `<img class='boardsign' src='https://picbed.yanhuoi.work/img/label/秘密基地-休息中.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> , document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c)
+    c = s < 18 && s >= 9 ? `<img class='boardsign' src='https://picbed.yanhuoi.work/img/label/秘密基地-运行中.svg' title='越努力越自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> </div>` : `<img class='boardsign' src='https://picbed.yanhuoi.work/img/label/秘密基地-休息中.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> </div>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c)
 }
 
 setInterval((() => {
