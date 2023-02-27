@@ -455,7 +455,7 @@ h6::before {
   background: #1e1e1e;
   color: #faebd7;
 }
-[data-theme="dark"]#pagination .page-number.current {
+[data-theme="dark"] #pagination .page-number.current {
  background: #1f1f1f;
 }
 /* 鼠标悬浮状态 */
