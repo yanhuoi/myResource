@@ -18,7 +18,7 @@ nav#pagination {
     width: 100%;
 }
 #pagination .page-number.current {
-    background: #49b1f5;
+    background: #4976f5;
     color: var(--white);
 }
 
