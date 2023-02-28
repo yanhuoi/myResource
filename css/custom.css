@@ -460,7 +460,7 @@ h6::before {
 }
 /* 鼠标悬浮状态 */
 [data-theme="dark"] .magnet_link_context:hover {
-  background: #3ecdf1;
+  background: #4976f5;
   color: #f2f2f2;
 }
 /*aplayer样式  */
